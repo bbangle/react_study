@@ -1,10 +1,19 @@
-
-import ClockExample01 from "./examples/example01_clock";
+// example01 시계 예제
+// import ClockExample01 from "./examples/example01_clock";
+// example02 class 컴포넌트와 errorboundary
+// import Example02 from "./examples/example02_bugClock/Example02";
+// import V1_ChildCounter from "./examples/example03_propsDrilling/V1_ChildCounter.tsx";
+// example03 props드릴링
+// import Example03_V1 from "./examples/example03_propsDrilling/Example03_V1.tsx";
+import Example03_V2 from "./examples/example03_propsDrilling/Example03_V2.tsx";
 
 const App =()=> {
     return(
         <>
-            <ClockExample01/>;
+            {/*<ClockExample01/>*/}
+            {/*<Example02/>*/}
+            {/*<Example03_V1/>*/}
+            <Example03_V2/>
         </>
     );
 };
