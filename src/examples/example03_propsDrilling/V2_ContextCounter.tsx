@@ -14,4 +14,9 @@ export const CounterProvider = ({children})=>{
     );
 }
 
-export const useCount = () => useContext(CounterContext);
+export const useCount = () => {
+    const ctx = useContext(CounterContext);
+    if (!ctx) throw new Error("useCount must be used within a CounterProvider");
+
+    return ctx;
+}
