@@ -6,8 +6,8 @@
 // example03 props드릴링
 // import Example03_V1 from "./examples/example03_propsDrilling/Example03_V1.tsx";
 // import Example03_V2 from "./examples/example03_propsDrilling/Example03_V2.tsx";
-import Example04 from "./examples/example04_produce/Example04";
-
+// import Example04 from "./examples/example04_produce/Example04";
+import Example05 from "./examples/example05_useRef/Example05";
 const App =()=> {
     return(
         <>
@@ -15,7 +15,8 @@ const App =()=> {
             {/*<Example02/>*/}
             {/*<Example03_V1/>*/}
             {/*<Example03_V2/>*/}
-            <Example04/>
+            {/*<Example04/>*/}
+            <Example05/>
         </>
 
     );
