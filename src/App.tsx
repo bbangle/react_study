@@ -7,7 +7,9 @@
 // import Example03_V1 from "./examples/example03_propsDrilling/Example03_V1.tsx";
 // import Example03_V2 from "./examples/example03_propsDrilling/Example03_V2.tsx";
 // import Example04 from "./examples/example04_produce/Example04";
-import Example05 from "./examples/example05_useRef/Example05";
+// import Example05 from "./examples/example05_useRef/Example05";
+//import Example06 from "./examples/example06_reducer/Example06";
+import {Example06_1} from "./examples/example06_reducer/Example06.tsx";
 const App =()=> {
     return(
         <>
@@ -16,7 +18,9 @@ const App =()=> {
             {/*<Example03_V1/>*/}
             {/*<Example03_V2/>*/}
             {/*<Example04/>*/}
-            <Example05/>
+            {/*<Example05/>*/}
+            {/*<Example06/>*/}
+            <Example06_1/>
         </>
 
     );
