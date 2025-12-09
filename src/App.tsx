@@ -9,7 +9,9 @@
 // import Example04 from "./examples/example04_produce/Example04";
 // import Example05 from "./examples/example05_useRef/Example05";
 //import Example06 from "./examples/example06_reducer/Example06";
-import {Example06_1} from "./examples/example06_reducer/Example06.tsx";
+//import {Example06_1} from "./examples/example06_reducer/Example06.tsx";
+import Example07 from "./examples/example07_customHooks/Example07.tsx";
+
 const App =()=> {
     return(
         <>
@@ -20,7 +22,8 @@ const App =()=> {
             {/*<Example04/>*/}
             {/*<Example05/>*/}
             {/*<Example06/>*/}
-            <Example06_1/>
+            {/*<Example06_1/>*/}
+            <Example07/>
         </>
 
     );
