@@ -10,9 +10,12 @@
 // import Example05 from "./examples/example05_useRef/Example05";
 //import Example06 from "./examples/example06_reducer/Example06";
 //import {Example06_1} from "./examples/example06_reducer/Example06.tsx";
-import Example07 from "./examples/example07_customHooks/Example07.tsx";
+// import Example07 from "./examples/example07_customHooks/Example07.tsx";
+import Example08 from "./examples/example08_redux/Example08.tsx";
+import { Provider } from "react-redux";
+import store from "./examples/example08_redux/store";
 
-const App =()=> {
+const App = ()=> {
     return(
         <>
             {/*<ClockExample01/>*/}
@@ -23,7 +26,10 @@ const App =()=> {
             {/*<Example05/>*/}
             {/*<Example06/>*/}
             {/*<Example06_1/>*/}
-            <Example07/>
+            {/*<Example07/>*/}
+            <Provider store={store}>
+                <Example08/>
+            </Provider>
         </>
 
     );
